@@ -1,0 +1,111 @@
+﻿ACHIEVEMENTS_EARNED	{}			
+ambient_control		{}			
+colourblind_option	boolean		
+COMP				{}			
+crashreports		boolean		Whether to set crash reports to developer
+current_setup		string		(ex. "New Run")
+CUSTOM_DECK			{}			Card art settings
+DEMO				{}			
+GAMESPEED			number		Game speed (0.5,1,2,4)
+GRAPHICS			{}			
+language			string		(ex. "en-us")
+music_control		{}			
+paused				boolean		?
+play_button_pos		number		?
+profile				number		Which profile is selected (1-3)
+QUEUED_CHANGE		{}			
+reduced_motion		boolean		Reduced motion
+rumble				?			?
+run_stake_stickers	boolean		?
+screenshake			number		
+SOUND				{}			
+tutorial_complete	boolean		Has tutorial been completed?
+tutorial_progress	{}			
+version				string		Version of Balatro
+WINDOW				{}			
+
+
+-------------
+ACHIEVEMENTS_EARNED
+card_discarder		boolean
+big_hands			boolean
+retrograde			boolean
+shattered			boolean
+tiny_hands			boolean
+_100000k			boolean
+cartomancy			boolean
+mid_stakes			boolean
+_10k				boolean
+low_stakes			boolean
+heads_up			boolean
+ante_upper			boolean
+astronomy			boolean
+rule_bender			boolean
+_1000k				boolean
+speedrunner			boolean
+legendary			boolean
+nest_egg			boolean
+roi					boolean
+royale				boolean
+clairvoyance		boolean
+ante_up				boolean
+card_player			boolean
+
+-------------
+ambient_control
+(named vals)		{}
+
+-------------
+COMP
+prev_name			string
+name				string
+submission_name		string/nil
+score				number
+
+-------------
+CUSTOM_DECK
+Collabs				{}
+
+-------------
+DEMO
+win_CTA_shown		boolean
+quit_CTA_shown		boolean
+timed_CTA_shown		boolean
+total_uptime		number
+
+-------------
+GRAPHICS
+texture_scaling		number
+crt					number
+shadows				string
+bloom				number
+
+-------------
+music_control
+current_track		string
+desired_track		string
+lerp				number
+
+-------------
+QUEUED_CHANGE
+?
+
+-------------
+SOUND
+volume				number
+music_volume		number
+game_sounds_volume	number
+
+-------------
+tutorial_progress
+hold_parts			{}
+section				string
+completed_parts		{}
+
+-------------
+WINDOW
+vsync				number
+display_names		{}
+screenmode			string
+DISPLAYS			{}
+selected_display	number
